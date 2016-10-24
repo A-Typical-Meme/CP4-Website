@@ -1,4 +1,8 @@
 body {
-    background-image: url("gradient_bg.png");
+    background-image: url("http://cdn.wallpapersafari.com/59/35/4nqa3D.png");
+	background-size: 700px;
 	background-repeat: repeat-x;
+}
+img {
+	border:2px solid;
 }
