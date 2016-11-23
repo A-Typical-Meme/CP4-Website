@@ -1,7 +1,58 @@
 body {
-    background-image: url("http://www.publicdomainpictures.net/pictures/130000/velka/gray-seamless-background-1438295748lVJ.jpg");
+    background-image: url("http://silviahartmann.com/background-tile-art/images/black_woven_seamless_tile.jpg");
 	background-repeat: repeat-x, y;
+	color: white;
 }
 img {
 	border:2px solid;
+}
+/* Please note, CSS for the dropdown is from W3 schools (for now). */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #303030;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
