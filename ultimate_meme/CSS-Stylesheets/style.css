@@ -1,11 +1,9 @@
 body {
-    background-image: url("http://silviahartmann.com/background-tile-art/images/black_woven_seamless_tile.jpg");
+    background-image: url("http://silviahartmann.com/background-tile-art/images/black_woven_seamless_tile.jpg"); /*http://silviahartmann.com/background-tile-art/images/black_woven_seamless_tile.jpg*/
 	background-repeat: repeat-x, y;
 	color: white;
 }
-img {
-	border:2px solid;
-}
+
 /* Please note, CSS for the dropdown is from W3 schools (for now). */
 ul {
     list-style-type: none;
@@ -15,7 +13,7 @@ ul {
     background-color: #303030;
 }
 
-li {
+li{
     float: left;
 }
 
