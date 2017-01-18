@@ -4,6 +4,10 @@ body {
 	color: white;
 }
 
+div.main{
+	size: 5;
+}
+
 /* Please note, CSS for the dropdown is from W3 schools (for now). */
 ul {
     list-style-type: none;
