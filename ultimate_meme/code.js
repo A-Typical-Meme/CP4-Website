@@ -1,2 +1,3 @@
-function test(x) {
-	x = 
+function test() {
+	document.getElementById("test").innerHTML = "Success";
+}	
