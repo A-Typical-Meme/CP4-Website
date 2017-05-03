@@ -2,24 +2,7 @@ function test() {
 	document.getElementById("test").innerHTML = "Success";
 }	
 
-var profile3 = {
-	username : "",
-	passWord : "",
-};
-
-var profile4 = {
-	username : "",
-	passWord : "",
-};
-
-var profile5 = {
-	username : "",
-	passWord : "",
-};
 /* These are the profile settings, by username and password */
-
-/*var profile1 = ["goodchilda", "test"]
-var profile2 = ["john_derpy", "nope"] */
 
 var profile1 = {
 	username : "goodchilda", 
@@ -43,8 +26,8 @@ function person (userIn, passIn){
 var new_profile = function(){
 	userIn = prompt("Enter the new username: ");
 	passIn = prompt("Enter the new password: ");
-	profile3 = new person(userIn, passIn);
-	console.log(profile3) 
+	prof_sets[prof_sets.length] = new person(userIn, passIn);
+	console.log(prof_sets[prof_sets.length - 1]) 
 }
 
 /* This function asks the user for their username and password by popup,
@@ -62,14 +45,14 @@ var login = function(){
 
 var key = "False";
 
-var prof_sets = [profile1, profile2, profile3, profile4, profile5];
+var prof_sets = [profile1, profile2,];
 
 /* This function cross checks the profile settings with the uservar and
 passvar inputs. It also returns the key variable as True so that it will not repeat after
 a successful login. */ 
  
 function profCheck(userInput, passInput){
-	for(i = 0; i < prof_sets.length; i++ )
+	for(i = 0; i <= prof_sets.length; i++ )
 		if(userInput === prof_sets[i].username){
 			if(passInput === prof_sets[i].passWord){
 				window.location = "file:///H:/Documents/GitHub/CP4-Website/ultimate_meme/ultimate_meme.html"
@@ -109,4 +92,3 @@ function profCheck(userInput, passInput){
 	}*/
 
 }
-
