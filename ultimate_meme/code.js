@@ -27,7 +27,7 @@ var new_profile = function(){
 	userIn = prompt("Enter the new username: ");
 	passIn = prompt("Enter the new password: ");
 	prof_sets[prof_sets.length] = new person(userIn, passIn);
-	console.log(prof_sets[prof_sets.length - 1]) 
+	console.log(prof_sets[prof_sets.length - 1]);
 }
 
 /* This function asks the user for their username and password by popup,
